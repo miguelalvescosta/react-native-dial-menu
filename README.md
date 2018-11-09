@@ -1,1 +1,1 @@
-# react-native-deal-menu
+# react-native-dial-menu
