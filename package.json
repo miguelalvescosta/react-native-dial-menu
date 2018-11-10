@@ -1,0 +1,23 @@
+{
+  "name": "react-native-dial-menu",
+  "version": "1.0.0",
+  "description": "Dial Menu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelalvescosta/react-native-dial-menu.git"
+  },
+  "keywords": [
+    "dial",
+    "menu"
+  ],
+  "author": "Miguel Costa <miguelcosta217@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguelalvescosta/react-native-dial-menu/issues"
+  },
+  "homepage": "https://github.com/miguelalvescosta/react-native-dial-menu#readme"
+}
