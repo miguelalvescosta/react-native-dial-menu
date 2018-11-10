@@ -8,8 +8,8 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
-import Dialmenu from './DialMenu';
-import DialMenuItem from './DialMenuItem'
+import DialMenu  from 'react-native-dial-menu';
+import DialMenuItem from 'react-native-dial-menu';
 
 
 const instructions = Platform.select({
