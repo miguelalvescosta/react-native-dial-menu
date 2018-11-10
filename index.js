@@ -15,7 +15,7 @@ import DialMenuItem from './DialMenuItem'
 
 const { width, height } = Dimensions.get("window");
 
-export default class DialMenu extends React.Component {
+class DialMenu extends Component {
     constructor(props){
         super(props);
         const defaultStyles = {
@@ -212,3 +212,5 @@ const styles = StyleSheet.create({
     itemsContainer: ViewPropTypes.style,
 	itemsContainerBackgroundStyle: ViewPropTypes.style,
 }
+export default DialMenu;
+export { DialMenu };

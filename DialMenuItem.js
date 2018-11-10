@@ -11,7 +11,7 @@ import {
 import PropTypes from 'prop-types';
 
 
-export default class DialMenuItem extends Component {
+class DialMenuItem extends Component {
     constructor(props) {
       super(props)
     }
@@ -74,3 +74,5 @@ DialMenuItem.propTypes = {
     onPress: PropTypes.func,
     title : ""
 }
+export default DialMenuItem;
+export { DialMenuItem };
