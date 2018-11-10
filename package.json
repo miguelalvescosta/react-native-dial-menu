@@ -1,6 +1,6 @@
 {
   "name": "react-native-dial-menu",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Dial Menu",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,11 @@
   },
   "keywords": [
     "dial",
-    "menu"
+    "menu",
+    "react-native-menu",
+    "react-native-dial-menu",
+    "react-native",
+    "dial-menu"
   ],
   "author": "Miguel Costa <miguelcosta217@hotmail.com>",
   "license": "ISC",

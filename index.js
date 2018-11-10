@@ -9,7 +9,7 @@ import {StyleSheet,
   TouchableOpacity,
   Button} from 'react-native';
 import PropTypes from 'prop-types'
-import Hamburger from './Hamburguer'
+import PlusButton from './plusButton'
 import DialMenuItem from './DialMenuItem'
 
 
@@ -75,8 +75,8 @@ export default class DialMenu extends React.Component {
       }
       return(
             <View style={[styles.circleButton, circlePositionStyle, {backgroundColor: this.props.buttonColor}]}>
-                <Hamburger active={this.state.active} onPress={() => { this.onShowMenu()}}underlayColor="transparent" >
-                </Hamburger>
+                <PlusButton active={this.state.active} onPress={() => { this.onShowMenu()}}underlayColor="transparent" >
+                </PlusButton>
             </View>
       )
   }
