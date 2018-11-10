@@ -1,10 +1,14 @@
 # react-native-dial-menu
-A cross-platform (iOS / Android), dial menu
+A cross-platform (iOS / Android), dial menu (Right and left)
+
+## Features
+Button in the center
+
 
 ## Demo
 
-<iframe src="https://giphy.com/embed/4ZgCJ3mRmZz80PMx8d" width="480" height="274" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/4ZgCJ3mRmZz80PMx8d">via GIPHY</a></p>
-<a href="https://giphy.com/gifs/4ZgCJ3mRmZz80PMx8d"></a>
+![Alt Text](https://giphy.com/gifs/2UvHgarUJhfMX8rQgB)
+
 
 ## Install
 
@@ -53,6 +57,7 @@ const styles = StyleSheet.create({
 
 ## Props
 Dial Menu
+* `type - ""` left or right side
 * `menuColor - ""` Background Menu color
 * `buttonColor - ""` Round Button color 
 
