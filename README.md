@@ -3,7 +3,7 @@ A cross-platform (iOS / Android), dial menu
 
 ## Demo
 
-<a href="https://giphy.com/gifs/4KF8EWeeoJTwbbDATQ"></a>
+<iframe src="https://giphy.com/embed/4ZgCJ3mRmZz80PMx8d" width="480" height="274" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/4ZgCJ3mRmZz80PMx8d">via GIPHY</a></p>
 <a href="https://giphy.com/gifs/4ZgCJ3mRmZz80PMx8d"></a>
 
 ## Install
@@ -52,9 +52,11 @@ const styles = StyleSheet.create({
 ```
 
 ## Props
-
+Dial Menu
 * `menuColor - ""` Background Menu color
 * `buttonColor - ""` Round Button color 
+
+Dial Menu item
 * `imageSource - ""` Require image source
 * `title - ""`  Item title
 * `textColor - ""`  Item title color
