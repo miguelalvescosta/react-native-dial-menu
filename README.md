@@ -7,7 +7,9 @@ Button in the center
 
 ## Demo
 
-![Alt Text](https://giphy.com/gifs/2UvHgarUJhfMX8rQgB)
+<img src="https://media.giphy.com/media/2UvHgarUJhfMX8rQgB/giphy.gif" alt="Animated GIF" style="width: 480px; height: 274.286px; left: 0px; top: 0px; opacity: 1;">
+
+<img src="https://media.giphy.com/media/22PpabYZnYpiOvitcP/giphy.gif" alt="Animated GIF" style="width: 480px; height: 274.286px; left: 0px; top: 0px; opacity: 1;">
 
 
 ## Install
