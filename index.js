@@ -110,7 +110,9 @@ class DialMenu extends Component {
                 key={idx}
                 {...this.props}
                 {...DialMenu.props}
-                onPress={() => { this.onShowMenu()}}
+                onPress={() => { this.onShowMenu()
+                        DialMenu.props.onPress()
+              }}
                 />
             ))}
         </View>
