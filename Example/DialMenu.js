@@ -27,10 +27,10 @@ export default class DialMenu extends Component {
           <View style={{height: 80, bottom: 0}}>
        <Dialmenu type={"left"} menuColor= {'#5EADD6'} buttonColor= {"#405E70"}  style={{height: '30%'}}>
             
-       <DialMenuItem imageSource={require('./Assets/home.png')} title={"Home"} textColor= {"white"} iconsColor= {"white"}/>
-             <DialMenuItem imageSource={require('./Assets/store.png')} title={"Store"} title={"Home"} textColor= {"white"} iconsColor= {"white"}/>
-             <DialMenuItem imageSource={require('./Assets/cart.png')} title={"Cart"}  title={"Home"} textColor= {"white"} iconsColor= {"white"}/>
-             <DialMenuItem imageSource={require('./Assets/travel.png')} title={"Travel"} title={"Home"} textColor= {"white"} iconsColor= {"white"}/>
+       <DialMenuItem imageSource={require('./Assets/home.png')} title={"Home"} textColor= {"white"} iconsColor= {"white"} onPress={() => this.props.navigation.push('')}/>
+             <DialMenuItem imageSource={require('./Assets/store.png')} title={"Store"} title={"Home"} textColor= {"white"} iconsColor= {"white"}  onPress={() => this.props.navigation.push('')}/>
+             <DialMenuItem imageSource={require('./Assets/cart.png')} title={"Cart"}  title={"Home"} textColor= {"white"} iconsColor= {"white"}  onPress={() => this.props.navigation.push('')}/>
+             <DialMenuItem imageSource={require('./Assets/travel.png')} title={"Travel"} title={"Home"} textColor= {"white"} iconsColor= {"white"}  onPress={() => this.props.navigation.push('')}/>
           
           </Dialmenu>
           </View>
